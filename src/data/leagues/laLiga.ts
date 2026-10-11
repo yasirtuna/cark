@@ -1,0 +1,30 @@
+import { createLeague } from '../createLeague';
+
+export const laLiga = createLeague({
+  id: 'es-laliga',
+  name: 'La Liga',
+  country: 'İspanya',
+  type: 'CLUB',
+  teams: [
+    'Athletic Club',
+    'Atlético Madrid',
+    'CA Osasuna',
+    'Celta Vigo',
+    'Deportivo Alavés',
+    'Elche CF',
+    'FC Barcelona',
+    'Getafe CF',
+    'Levante UD',
+    'Málaga CF',
+    'Racing Santander',
+    'Rayo Vallecano',
+    'RC Deportivo',
+    'RCD Espanyol',
+    'Real Betis',
+    'Real Madrid',
+    'Real Sociedad',
+    'Sevilla FC',
+    'Valencia CF',
+    'Villarreal CF',
+  ],
+});

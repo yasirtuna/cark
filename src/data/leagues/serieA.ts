@@ -1,0 +1,30 @@
+import { createLeague } from '../createLeague';
+
+export const serieA = createLeague({
+  id: 'it-seriea',
+  name: 'Serie A',
+  country: 'İtalya',
+  type: 'CLUB',
+  teams: [
+    'AC Milan',
+    'Atalanta',
+    'Bologna',
+    'Cagliari',
+    'Como',
+    'Fiorentina',
+    'Frosinone',
+    'Genoa',
+    'Inter Milan',
+    'Juventus',
+    'Lazio',
+    'Lecce',
+    'Monza',
+    'Napoli',
+    'Parma',
+    'Roma',
+    'Sassuolo',
+    'Torino',
+    'Udinese',
+    'Venezia',
+  ],
+});

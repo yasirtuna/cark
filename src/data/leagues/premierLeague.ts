@@ -1,0 +1,30 @@
+import { createLeague } from '../createLeague';
+
+export const premierLeague = createLeague({
+  id: 'eng-prl',
+  name: 'Premier League',
+  country: 'İngiltere',
+  type: 'CLUB',
+  teams: [
+    'Arsenal',
+    'Aston Villa',
+    'Bournemouth',
+    'Brentford',
+    'Brighton & Hove Albion',
+    'Chelsea',
+    'Coventry City',
+    'Crystal Palace',
+    'Everton',
+    'Fulham',
+    'Hull City',
+    'Ipswich Town',
+    'Leeds United',
+    'Liverpool',
+    'Manchester City',
+    'Manchester United',
+    'Newcastle United',
+    'Nottingham Forest',
+    'Sunderland',
+    'Tottenham Hotspur',
+  ],
+});
